@@ -24,7 +24,7 @@ public class GildedRoseTest {
 	public void testUpdateEndOfDay_AgedBrie_Quality_10_11() {
 		// Arrange
 		GildedRose store = new GildedRose();
-		store.addItem(new Item("Aged Brie", 2, 10) );
+		store.addItem(new Item("Aged_Brie", 2, 10) );
 		
 		// Act
 		store.updateEndOfDay();
